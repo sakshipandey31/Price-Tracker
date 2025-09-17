@@ -34,7 +34,7 @@ function sendEmail(result) {
     from: 'cse.20201025@gmail.com',
     to: 'cse.20201050@gmail.com' ,
     subject: `AMAZON PRICE TRACK - ${result.title} - PRICE: ${result.priceInt}`,
-    html: `<p>Hey Anuradha,Greetings from Rajat and Gaurav, your selected product is within your specified Target Price. Don't wait a second, hurry!!!!! before it goes out of stock.
+    html: `<p>Hey Anuradha,Greetings from Rajat and Sakshi, your selected product is within your specified Target Price. Don't wait a second, hurry!!!!! before it goes out of stock.
     Go and buy it now <a href="${url}">HERE</a></p>`
   };
   const transporter = nodemailer.createTransport({
